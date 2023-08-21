@@ -18,7 +18,7 @@ task SamtoolsProcess {
   }
 
   runtime {
-    docker: "biocontainers/samtools"
+    docker: "biocontainers/samtools:v1.9-4-deb_cv1"
   }
 }
 
